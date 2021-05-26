@@ -104,10 +104,10 @@ def handle_message(event):
             jieba.load_userdict("dict.txt")
             #lists= ['  '.join(jieba.cut_for_search(s))for s in [text_chat]]
             lists= jieba.lcut_for_search(text_chat)
-            print('search模式：'lists)
+            print('search模式：'+lists)
             #listss= ['  '.join(jieba.cut(s,cut_all=False))for s in [text_chat]]
             listss= jieba.lcut(text_chat,cut_all=False)
-            print('精準模式：'listss)
+            print('精準模式：'+listss)
             listsss= jieba.lcut(text_chat,cut_all=True)
             print('全模式: '+listsss)
             '''
