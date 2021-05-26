@@ -1,0 +1,11 @@
+line-bot-sdk
+flask
+numpy==1.16.5
+pandas==0.24.2
+jieba-hant==0.39.1
+scikit-learn==0.20.3
+xlrd == 1.0.0
+APScheduler==3.6.1
+oauth2client
+gspread
+liffpy

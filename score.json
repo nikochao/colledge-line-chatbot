@@ -1,0 +1,50 @@
+return client.replyMessage(replyToken,
+{
+  "type": "text",
+  "text": "請幫剛剛的回答評分",
+  "quickReply": {
+    "items": [
+      {
+        "type": "action",
+        "action": {
+          "type": "message",
+          "label": "1",
+          "text": "1"
+        }
+      },
+      {
+        "type": "action",
+        "action": {
+          "type": "message",
+          "label": "2",
+          "text": "2"
+        }
+      },
+      {
+        "type": "action",
+        "action": {
+          "type": "message",
+          "label": "3",
+          "text": "3"
+        }
+      },
+      {
+          "type": "action",
+          "action": {
+            "type": "message",
+            "label": "4",
+            "text": "4"
+          }
+      },
+      {
+            "type": "action",
+            "action": {
+              "type": "message",
+              "label": "5",
+              "text": "5"
+            }
+      }
+    ]
+  }
+}
+）;
