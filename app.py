@@ -133,7 +133,7 @@ def handle_message(event):
                 if i == ' ':
                     lists.remove(' ')
             print (lists)
-            for i in lists:
+            for i in listss:
                 if i == ' ':
                     listss.remove(' ')
             print (listss)
