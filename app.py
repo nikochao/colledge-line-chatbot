@@ -129,6 +129,14 @@ def handle_message(event):
             que_number=df_que.shape[0]
             
             '''
+            for i in lists:
+                if i == ' ':
+                    lists.remove(' ')
+            print (lists)
+            for i in lists:
+                if i == ' ':
+                    listss.remove(' ')
+            print (listss)
             que_number=len(lists)
             print(lists[0][0])
             print(lists[0])
